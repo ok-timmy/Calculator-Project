@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.calc-div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin:auto;
+    justify-self: center;
+    align-content: center;
+    width: 540px;
+    height: 500px;
+    border: solid grey 2px;
+    border-radius: 10px;
+}
+
+
+.screenPage {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ansScreen {
+    background-color: rgba(39, 38, 38, 0.9);
+    color: #f5f5f5;
+    padding: 1rem;
+    margin: 0.2rem 10px;
+    width: 500px;
+    text-align: end;
+}
+
+.screen {
+    width: 500px;
+    padding: 10px;
+    margin: 10px;
+    height: 10vh;
+    background-color: rgba(27, 25, 25, 0.9);
+    color: white;
+}
+
+.buttons {
+    display: inline;
+}
+
+
+.numbers {
+    position: relative;
+    float: left;
+    max-width: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.operations {
+    position: relative;
+    float: right;
+    max-width: 230px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+button {
+    font-size: 2rem;
+    margin: 5px;
+    padding:  15px 30px;
+    border: solid 2px #ccc;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:active {
+    border: none;
+    outline: none;
+}
